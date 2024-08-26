@@ -1,0 +1,6 @@
+# dependencies
+/node_modules
+
+# secrets
+/canary/config.json
+/src/config.json

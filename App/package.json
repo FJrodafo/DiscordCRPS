@@ -1,0 +1,40 @@
+{
+  "name": "discordcrps",
+  "version": "1.0.0",
+  "description": "A simple Discord Custom Rich Presence Status made in JavaScript!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "canary": "node ./canary/index.js",
+    "eslint": "eslint './**/*.js'",
+    "eslintfix": "eslint './**/*.js' --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FJrodafo/DiscordCRPS.git"
+  },
+  "keywords": [
+    "discord",
+    "custom",
+    "rich",
+    "presence",
+    "status",
+    "npmjs",
+    "nodejs",
+    "javascript",
+    "fjrodafo"
+  ],
+  "author": "FJrodafo - Francisco José Rodríguez Afonso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FJrodafo/DiscordCRPS/issues"
+  },
+  "homepage": "https://github.com/FJrodafo/DiscordCRPS#readme",
+  "dependencies": {
+    "discord-rpc": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0"
+  }
+}
