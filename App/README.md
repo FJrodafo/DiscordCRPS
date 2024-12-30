@@ -1,10 +1,13 @@
 ## Index
 
 1. [Project Structure](#project-structure)
-2. [Run it!](#run-it)
-3. [Run with Docker](#run-with-docker)
-4. [Build Docker image on your own](#build-docker-image-on-your-own)
-5. [Available Scripts](#available-scripts)
+2. [Download the code](#download-the-code)
+3. [Set up the project](#set-up-the-project)
+4. [Install dependencies](#install-dependencies)
+5. [Final steps](#final-steps)
+6. [Using Docker](#using-docker)
+7. [Available Scripts](#available-scripts)
+8. [Resources](#resources)
 
 ## Project Structure
 
@@ -25,7 +28,7 @@ App/
 ```
 </details>
 
-## Run it!
+## Download the code
 
 Open your directory where you save your repositories and clone it with the following command:
 
@@ -44,6 +47,8 @@ git clone https://gitlab.com/FJrodafo/DiscordCRPS.git
 git clone https://bitbucket.org/fjrodafo/DiscordCRPS.git
 ```
 
+## Set up the project
+
 This project needs a `config.json` into the `src` directory with your Discord APP Client ID (Make sure you have an APP created in the [Discord Developer Portal](https://discord.com/developers/applications)):
 
 ```json
@@ -52,11 +57,15 @@ This project needs a `config.json` into the `src` directory with your Discord AP
 }
 ```
 
+## Install dependencies
+
 As well, this project must be initialized and the necessary dependencies installed with the following command (Make sure you are in the `App` directory):
 
 ```shell
 npm install
 ```
+
+## Final steps
 
 If you have the `config.json` file into the `src` directory correctly configurated and Node v16.11.0 or higher installed on your machine, then you are good to go!
 
@@ -69,7 +78,9 @@ npm start
 # Press 'Ctrl + C' to exit
 ```
 
-## Run with Docker
+## Using Docker
+
+### Run with Docker Compose
 
 Make sure to create and configurate the `config.json` file correctly into the `src` directory before running Docker commands...
 
@@ -91,9 +102,9 @@ Stop the Container:
 docker compose down
 ```
 
-## Build Docker image on your own
+### Build Docker image on your own
 
-If you don't have Node v16.11.0 or higher installed on your machine, you can build a Docker image by running the [Dockerfile](./Dockerfile) (Make sure to create and configurate the `config.json` file correctly into the `src` directory before building the docker image).
+If you don't have Node v18 or higher installed on your machine, you can build a Docker image by running the [Dockerfile](./Dockerfile) (Make sure to create and configurate the `config.json` file correctly into the `src` directory before building the docker image).
 
 Open a terminal and run the following command (Make sure you are in the `App` directory):
 
@@ -106,6 +117,12 @@ After the build completes, you can run your container with the following command
 ```shell
 docker run -dp 127.0.0.1:3000:3000 discord-crps
 ```
+
+> [!IMPORTANT]
+> 
+> Please note that when using Docker, port 3000 on localhost will be occupied by the Discord application for its proper functioning.
+> 
+> If you already have applications that use port 3000, you will need to adjust certain parameters before creating the Docker container so that it can run correctly on a free port.
 
 ## Available Scripts
 
@@ -130,6 +147,12 @@ Automatically fixes all errors caught by eslint.
 ### `npm test`
 
 There are currently no tests configured.
+
+## Resources
+
+For more information about the discord-rpc library, see the following link: https://github.com/discord/discord-rpc
+
+Discord has documentation on its official developer website where you can learn more about how the discord-rpc library works at the following link: https://discord.com/developers/docs/topics/rpc
 
 <link rel="stylesheet" href="./README.css">
 <a class="scrollup" href="#top">&#x1F53C</a>
