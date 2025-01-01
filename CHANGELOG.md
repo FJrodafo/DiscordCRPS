@@ -1,4 +1,7 @@
 ```
+* Commit: b4578e7 - v6
+| Author: fjrodafo - Wed, 1 Jan 2025 13:57:52 +0000
+| 
 * Commit: 1fb55d0 - v5
 | Author: fjrodafo - Mon, 30 Dec 2024 15:43:31 +0000
 | 
