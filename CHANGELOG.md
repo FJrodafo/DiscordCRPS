@@ -1,4 +1,7 @@
 ```
+* Commit: efcd158 - Remove VERSION.md
+| Author: fjrodafo - Sun, 9 Feb 2025 00:17:21 +0000
+| 
 * Commit: 1b4b1ee - v8
 | Author: fjrodafo - Wed, 5 Feb 2025 18:02:54 +0000
 | 
