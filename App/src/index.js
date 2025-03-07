@@ -42,7 +42,7 @@ RPC.on('ready', async () => {
 async function login() {
     try {
         await RPC.login({ clientId });
-        console.log('Logged in to Discord');
+        console.log('Logged in to Discord!');
     }
     catch (error) {
         console.error('Failed to connect to Discord:', error);
