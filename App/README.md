@@ -23,6 +23,7 @@ App/
 │   └── index.js
 ├── docker-compose.yaml
 ├── Dockerfile
+├── eslint.config.js
 ├── package-lock.json
 └── package.json
 ```
@@ -57,9 +58,9 @@ npm install
 
 ## Final steps
 
-If you have the `config.json` file into the `src` directory correctly configurated and Node v16.11.0 or higher installed on your machine, then you are good to go!
+If you have the `config.json` file into the `src` directory correctly configurated and Node v22.14.0 installed on your machine, then you are good to go!
 
-To check if you already have Node installed on your machine, run `node -v` in your terminal. Otherwise, you will need to install Node v16.11.0 or higher or, as a last option, check out the [Docker](#using-docker) alternative.
+To check if you already have Node installed on your machine, run `node -v` in your terminal. Otherwise, you will need to install Node v22.14.0 or, as a last option, check out the [Docker](#using-docker) alternative.
 
 Finally, if you have Node installed, run the following command to activate your Discord Custom Rich Presence Status (Make sure you are in the `App` directory):
 
@@ -96,7 +97,7 @@ docker compose down
 
 ### Build Docker image on your own
 
-If you don't have Node v18 or higher installed on your machine, you can build a Docker image by running the [Dockerfile](./Dockerfile) (Make sure to create and configurate the `config.json` file correctly into the `src` directory before building the docker image).
+If you don't have Node v22.14.0 installed on your machine, you can build a Docker image by running the [Dockerfile](./Dockerfile) (Make sure to create and configurate the `config.json` file correctly into the `src` directory before building the docker image).
 
 Open a terminal and run the following command (Make sure you are in the `App` directory):
 
