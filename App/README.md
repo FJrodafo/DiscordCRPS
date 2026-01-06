@@ -146,6 +146,3 @@ There are currently no tests configured.
 For more information about the discord-rpc library, see the following link: https://github.com/discord/discord-rpc
 
 Discord has documentation on its official developer website where you can learn more about how the discord-rpc library works at the following link: https://discord.com/developers/docs/topics/rpc
-
-<link rel="stylesheet" href="./README.css">
-<a class="scrollup" href="#top">&#x1F53C</a>
