@@ -1,3 +1,7 @@
+# DiscordCRPS
+
+A simple Discord Custom Rich Presence Status made in JavaScript!
+
 ## Index
 
 1. [Project Structure](#project-structure)
