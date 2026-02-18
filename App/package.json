@@ -21,7 +21,7 @@
     "type": "git",
     "url": "git+https://github.com/FJrodafo/DiscordCRPS.git"
   },
-  "license": "MIT",
+  "license": "CC0-1.0",
   "author": "FJrodafo - Francisco José Rodríguez Afonso",
   "type": "commonjs",
   "main": "index.js",
