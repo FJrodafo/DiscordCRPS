@@ -1,9 +1,9 @@
 # Dependencies
 /node_modules
 
+# Releases
+/releases/v*
+
 # Secrets
 /canary/config.json
 /src/config.json
-
-# Releases
-/releases/v*
