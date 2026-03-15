@@ -1,0 +1,16 @@
+# Git
+/.git
+.gitattributes
+.gitignore
+
+# GitHub
+/.github
+
+# VSCode
+/.vscode
+
+# Canary
+/canary
+
+# Releases
+/releases
