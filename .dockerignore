@@ -16,4 +16,5 @@
 /releases
 
 # Secrets
-.env
+/canary/config.json
+/src/config.json
