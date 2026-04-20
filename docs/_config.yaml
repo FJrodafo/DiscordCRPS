@@ -1,0 +1,4 @@
+theme: jekyll-theme-minimal
+title: DiscordCRPS
+description: A simple Discord Custom Rich Presence Status made in JavaScript!
+show_downloads: true
