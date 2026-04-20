@@ -1,20 +1,26 @@
 # Git
-/.git
-.gitattributes
-.gitignore
+/.git/
+/.gitattributes
+/.gitignore
 
 # GitHub
-/.github
+/.github/
 
 # VSCode
-/.vscode
+/.vscode/
 
 # Canary
-/canary
+/canary/
 
-# Releases
-/releases
+# Documents
+/docs/
+
+# Dependencies
+/node_modules/
 
 # Secrets
 /canary/config.json
 /src/config.json
+
+# Dev tooling
+/eslint.config.js
