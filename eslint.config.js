@@ -6,9 +6,6 @@ module.exports = [
         languageOptions: {
             ecmaVersion: 'latest',
         },
-        ignores: [
-            'node_modules/',
-        ],
         rules: {
             'arrow-spacing': ['warn', { before: true, after: true }],
             'brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
