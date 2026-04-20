@@ -1,5 +1,5 @@
 {
-  "name": "discordcrps",
+  "name": "@fjrodafo/discord-crps",
   "version": "1.0.0",
   "description": "A simple Discord Custom Rich Presence Status made in JavaScript!",
   "keywords": [
@@ -31,7 +31,9 @@
     "eslint": "eslint './**/*.js'",
     "eslintfix": "eslint './**/*.js' --fix",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tarball": "npm pack --dry-run"
+    "tarball": "npm pack --dry-run",
+    "publish:npm": "npm publish --access=public --registry=https://registry.npmjs.org/",
+    "publish:github": "npm publish --registry=https://npm.pkg.github.com/"
   },
   "dependencies": {
     "discord-rpc": "^4.0.1"
