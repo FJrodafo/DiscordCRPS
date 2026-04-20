@@ -1,10 +1,5 @@
 # Dependencies
-/node_modules
-
-# Releases
-/releases/*
-!releases/CHANGELOG.md
-!releases/VERSION.md
+/node_modules/
 
 # Secrets
 /canary/config.json
